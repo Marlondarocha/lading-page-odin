@@ -1,2 +1,2 @@
-# lading-page-odin
-Projeto lading page da odin project.
+# Projeto lading page.
+Projeto com foco em flex-box.
