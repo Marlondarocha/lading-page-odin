@@ -5,8 +5,10 @@
     padding: 0 auto;
 }
 
-body {
-    text-align: center;
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
 }
 
 header {
@@ -44,6 +46,30 @@ li {
     border-radius: 15px; 
 }
 
+.imgprin img {
+    max-width: 300px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    padding: 16px;
+}
+
+.imgex img {
+    max-width: 150px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+#botaocont {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 15px;
+    border: 2px solid #F9FAF8;
+}
+
 #fraset {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -62,3 +88,24 @@ footer {
     color: white;
 }
 
+/* PARTE FLEX-BOX */
+
+.cabeca, .listas {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    gap: 8px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.textoprin {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 32px;
+    padding: 16px;
+}
